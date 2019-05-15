@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1034283437381",
+    "firebase_url": "https://plantrecognition-9555f.firebaseio.com",
+    "project_id": "plantrecognition-9555f",
+    "storage_bucket": "plantrecognition-9555f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034283437381:android:1cab5432d343f339",
+        "android_client_info": {
+          "package_name": "com.project.plantrecognitionproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034283437381-nh8hsthuqp55ck0gga8km4a4mle7m6g9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4wccHRrPzlkRQ07ml6TbVjVD9zBUyMvo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034283437381-nh8hsthuqp55ck0gga8km4a4mle7m6g9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

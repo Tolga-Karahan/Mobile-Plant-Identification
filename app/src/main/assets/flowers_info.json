@@ -1,0 +1,534 @@
+{
+   "0":{
+      "isim":"Düğün Çiçeği",
+      "familya":"Ranunculaceae",
+      "cins":"Ranunculus",
+      "anavatan":"Asya",
+      "bilgi":"Yaklaşık 500 tane türü bulunan Ranunculus cinsine ait çiçeklerdir. Genellikle bahar aylarında çiçek açarlar."
+   },
+   "1":{
+      "isim":"Yakalı Çan",
+      "familya":"Campanulaceae",
+      "cins":"Campanula Tomentosa",
+      "anavatan":"Doğu Akdeniz, Batı Anadolu",
+      "bilgi":"Campanula Tomentosa cinsine ait çiçeklerdir. Mayıs-Haziran aylarında çiçek açarlar."
+   },
+   "2":{
+      "isim":"Tüysüz Mavi Dünya",
+      "familya":"Asteraceae",
+      "cins":"Echinops",
+      "anavatan":"Güney ve Doğu Avrupa, Batı Asya",
+      "bilgi":"Echinops cinsine ait Echinops Ritro çiçeğidir. Temmuz-Ekim ayları arasında çiçek açarlar."
+   },
+   "3":{
+      "isim":"Öksürükotu",
+      "familya":"Asteraceae",
+      "cins":"Tussilago",
+      "anavatan":"Avrupa, Batı ve Orta Asya",
+      "bilgi":"Tussilago cinsine ait, papatyagiller familyasından bir çiçektir. Mart-Nisan aylarında çiçek açarlar. Kabalak olarakta bilinirler."
+   },
+   "4":{
+      "isim":"Kurtboğan",
+      "familya":"Ranunculaceae",
+      "cins":"Aconitum",
+      "anavatan":"Kuzey Yarımküre",
+      "bilgi":"Aconitum cinsine ait çiçeklerdir. İçerdikleri alkoloitler nedeniyle zehirlidirler."
+   },
+   "5":{
+      "isim":"Karanfil",
+      "familya":"Caryophyllaceae",
+      "cins":"Dianthus",
+      "anavatan":"Akdeniz",
+      "bilgi":"Dianthus cinsine ait Dianthus Caryophyllus çiçekleridir."
+   },
+   "6":{
+      "isim":"Zambak",
+      "familya":"Liliaceae",
+      "cins":"Lilium",
+      "anavatan":"Avrupa, Asya ve Güney Amerika",
+      "bilgi":"Lilium cinsine ait lilium candidum çiçekleridir."
+   },
+   "7":{
+      "isim":"Koyungözü Çiçeği",
+      "familya":"Asteraceae",
+      "cins":"Gazania",
+      "anavatan":"Güney Afrika",
+      "bilgi":"Gazania cinsine ait çiçeklerdir."
+   },
+   "8":{
+      "isim":"Alev Kılıcı",
+      "familya":"Bromeliaceae",
+      "cins":"Vriesea",
+      "anavatan":"Orta ve Güney Amerika",
+      "bilgi":"Vriesa cinsine ait Vries Splendens çiçeğidir."
+   },
+   "9":{
+      "isim":"Visiyus",
+      "familya":"Araceae",
+      "cins":"Dieffenbachia",
+      "anavatan":"Güney Amerika",
+      "bilgi":"Dieffenbachia cinsine ait Dieffenbachia Maculata bitkisidir."
+   },
+   "10":{
+      "isim":"Mızraklı Deve Dikeni",
+      "familya":"Asteraceae",
+      "cins":"Cirsium",
+      "anavatan":"Avrupa, Batı Asya, Kuzeybatı Afrika",
+      "bilgi":"Cirsium cinsine ait Cirsium Vulgare çiçekleridir."
+   },
+   "11":{
+      "isim":"Acem Lalesi",
+      "familya":"Papaveraceae",
+      "cins":"Eschscholzia",
+      "anavatan":"Orta ve Kuzey Amerika",
+      "bilgi":"Eschscholzia cinsine ait çiçeklerdir."
+   },
+   "12":{
+      "isim":"Noel Gülü",
+      "familya":"Ranunculaceae",
+      "cins":"Helleborus",
+      "anavatan":"Avrupa, Asya",
+      "bilgi":"Helleborus cinsine ait çiçeklerdir."
+   },
+   "13":{
+      "isim":"Tatula",
+      "familya":"Solanaceae",
+      "cins":"Datura",
+      "anavatan":"Kozmopolit",
+      "bilgi":"Datura cinsine ait Datura Stromanium çiçeğidir. Boru çiçeği olarakta bilinirler. Bahar sonu ve sonbahar sonunda çiçek açarlar. Halüsinojen maddeler içerirler ve zehirlidirler."
+   },
+   "14":{
+      "isim":"Gündüz Sefası",
+      "familya":"Convolvulaceae",
+      "cins":"Convolvulus",
+      "anavatan":"Kozmopolit",
+      "bilgi":"Convolvulus cinsine ait çiçeklerdir. 200-250 tane türü bulunur."
+   },
+   "15":{
+      "isim":"Akasma",
+      "familya":"Ranunculaceae",
+      "cins":"Clematis",
+      "anavatan":"Çin, Japonya",
+      "bilgi":"Clematis cinsine ait çiçeklerdir. Yaklaşık 300 tane türü vardır."
+   },
+   "16":{
+      "isim":"Atatürk Çiçeği",
+      "familya":"Euphorbiaceae",
+      "cins":"Euphorbia",
+      "anavatan":"Meksika",
+      "bilgi":"Euphorbia cinsine ait Euphorbia Pulcherrima çiçeğidir. Çiçeğe ilgi duyan ve yetiştirilmesine ön ayak olan Mustafa Kemal Atatürk anısına isimlendirilmiştir. Sonbahar ve kış aylarında çiçek açarlar."
+   },
+   "17":{
+      "isim":"Lavanta",
+      "familya":"Lamiaceae",
+      "cins":"Lavandula",
+      "anavatan":"Akdeniz, Hindistan",
+      "bilgi":"Lavandula cinsine ait çiçeklerdir. 47 tane bilinen türü bulunmaktadır. Bahar ayları ve Yaz mevsimi başlarında çiçek açarlar."
+   },
+   "18":{
+      "isim":"Çörekotu Çiçeği",
+      "familya":"Ranunculaceae",
+      "cins":"Nigella",
+      "anavatan":"Güney Avrupa, Kuzey Afrika, Güney Asya",
+      "bilgi":"Nigella cinsine ait çiçeklerdir. 18 tane türü vardır. Tohumları baharat olarak kullanılır. Yaz aylarında çiçek açarlar."
+   },
+   "19":{
+      "isim":"Kara Hindiba",
+      "familya":"Asteraceae",
+      "cins":"Taraxacum",
+      "anavatan":"Kuzey Amerika, Avrupa",
+      "bilgi":"Taraxacum cinsine ait Taraxacum Officinale çiçeğidir. Papatyagiller familyasındandır. İlkbahardan Sonbaharın ortalarına dek çiçek açarlar."
+   },
+   "20":{
+      "isim":"Sarısüsen",
+      "familya":"Iridaceae",
+      "cins":"Iris Pseudacorus",
+      "anavatan":"Avrupa, Batı Asya, Kuzeybatı Afrika",
+      "bilgi":""
+   },
+   "21":{
+      "isim":"Altıntop Çiçeği",
+      "familya":"Ranunculaceae",
+      "cins":"Trollius",
+      "anavatan":"Kuzey Yarımküre",
+      "bilgi":"Trollius cinsine ait yaklaşık 30 tane türü bulunan çiçeklerdir."
+   },
+   "22":{
+      "isim":"Aslanağzı",
+      "familya":"Plantaginaceae",
+      "cins":"Antirrhinum",
+      "anavatan":"Avrupa, Birleşik Devletler, Kuzey Afrika",
+      "bilgi":"Antirrhinum cinsine ait çiçeklerdir. Mayıs-Haziran ayları arasında çiçek açarlar."
+   },
+   "23":{
+      "isim":"Gayret Çiçeği",
+      "familya":"Asteraceae",
+      "cins":"Gaillardia",
+      "anavatan":"Kuzey ve Güney Amerika",
+      "bilgi":"Gaillardia cinsine ait çiçeklerdir."
+   },
+   "24":{
+      "isim":"Deve Tabanı",
+      "familya":" Araceae",
+      "cins":"Montera",
+      "anavatan":"Meksika",
+      "bilgi":"Montera Deliciosa"
+   },
+   "25":{
+      "isim":"Begonvil",
+      "familya":"Nyctaginaceae",
+      "cins":"Bougainvillea",
+      "anavatan":"Güney Amerika",
+      "bilgi":"Süs bitkisi olarak yetiştirilirler. Dikenli çalılar şeklinde yayılış gösterirler."
+   },
+   "26":{
+      "isim":"Türk Sümbülü",
+      "familya":"Hyacinthaceae",
+      "cins":"Muscari",
+      "anavatan":"Asya, Avrupa",
+      "bilgi":"Yaklaşık 40 kadar türü bulunan Muscari cinsine ait çiçeklerdir. İlkbaharda çiçek açarlar."
+   },
+   "27":{
+      "isim":"Yıldız Çiçeği",
+      "familya":"Asteraceae",
+      "cins":"Dahlia",
+      "anavatan":"Meksika",
+      "bilgi":"Dahlia cinsine ait çiçeklerdir. Yaklaşık 42 tane türü vardır."
+   },
+   "28":{
+      "isim":"Mürdümük",
+      "familya":"Fabaceae",
+      "cins":"Lathyrus",
+      "anavatan":"Akdeniz",
+      "bilgi":"Lathyrus cinsine ait Lathyrus Odoratus çiçeklerdir. Itırşahi olarakta bilinirler. İlkbahar ve Yaz aylarında çiçek açarlar."
+   },
+   "29":{
+      "isim":"Sanseverya",
+      "familya":"Asparagaceae",
+      "cins":"Sansevieria",
+      "anavatan":"Batı Afrika, Amerika ve Asya",
+      "bilgi":"Sanseveria cinsine ait Sanseveria Trifasciata bitkileridir. Süs bitkisi olarak kullanılırlar."
+   },
+   "30":{
+      "isim":"Kalla Zambağı",
+      "familya":"Araceae",
+      "cins":"Zantedeschia",
+      "anavatan":"Afrika",
+      "bilgi":"Zantedeschia cinsine ait çiçeklerdir. 8 tane türü bulunur."
+   },
+   "31":{
+      "isim":"Fulya Çiçeği",
+      "familya":"Amaryllidaceae",
+      "cins":"Narcissus",
+      "anavatan":"Akdeniz",
+      "bilgi":"Narcissus cinsine ait çiçeklerdir. Yaklaşık 50 tane türü bulunur. İlbaharda çiçek açarlar."
+   },
+   "32":{
+      "isim":"Fujer",
+      "familya":"Nephrolepidaceae",
+      "cins":"Nephrolepsis",
+      "anavatan":"Tropik ülkeler",
+      "bilgi":"Nephrolepsis cinsine ait Nephrolepsis Exeltata bitkileridir."
+   },
+   "33":{
+      "isim":"Papatya",
+      "familya":"Asteraceae",
+      "cins":"Bellis",
+      "anavatan":"Avrupa",
+      "bilgi":"Bellis Perennis türüne ait çiçeklerdir. Çayıt papatyası olarakta bilinirler. İlkbahar ve Yaz ayları boyunca çiçek açarlar."
+   },
+   "34":{
+      "isim":"Kaktüs",
+      "familya":"Cactaceae",
+      "cins":"Cactus",
+      "anavatan":"Amerika Kıtası",
+      "bilgi":"Cactus cinsine ait bitkilerdir."
+   },
+   "35":{
+      "isim":"Ekinezya",
+      "familya":"Asteraceae",
+      "cins":"Echinacea",
+      "anavatan":"Kuzey Amerika",
+      "bilgi":"Echinacea cinsine ait çiçeklerdir. Kirpi otu olarakta bilinirler."
+   },
+   "36":{
+      "isim":"Aynısefa",
+      "familya":"Lamiaceae",
+      "cins":"Calendula",
+      "anavatan":"Batı Avrupa, Akdeniz, Güneybatı Asya",
+      "bilgi":"Calendula cinsine ait çiçeklerdir. 15-20 arasında türü bulunur. Ocak-Haziran ayları arasında çiçek açarlar."
+   },
+   "37":{
+      "isim":"Alev Çiçeği",
+      "familya":"Polemoniaceae",
+      "cins":"Phlox",
+      "anavatan":"Avrupa, Asya, Kuzey Amerika",
+      "bilgi":"alendula cinsine ait çiçeklerdir. 15-20 arasında türü bulunur. Ocak-Haziran ayları arasında çiçek açarlar."
+   },
+   "38":{
+      "isim":"Ateş Lalesi",
+      "familya":"Colchicaceae",
+      "cins":"Gloriosa",
+      "anavatan":"Tropik ülkeler",
+      "bilgi":"Gloriosa cinsine ait çiçeklerdir. 12 tane türü bulunur. Zehirlidirler."
+   },
+   "39":{
+      "isim":"Sikas",
+      "familya":"Cycadaceae",
+      "cins":"Cycas",
+      "anavatan":"Çin ve Japonya",
+      "bilgi":"Cycas cinsine ait Cycas Revoluta bitkileridir. Süs bitkisi olarak kullanılırlar."
+   },
+   "40":{
+      "isim":"Kaplan Zambağı",
+      "familya":"Liliaceae",
+      "cins":"Lilium",
+      "anavatan":"Uzakdoğu",
+      "bilgi":"Lililum cinsine ait Lilium Lancifolium çiçekleridir."
+   },
+   "41":{
+      "isim":"Marginata",
+      "familya":"Asparagaceae",
+      "cins":"Dracaena",
+      "anavatan":"Asya ve Afrika",
+      "bilgi":"Dracaena cinsine ait Dracaena Marginata bitkileridir."
+   },
+   "42":{
+      "isim":"Tavşan Kulağı",
+      "familya":"Primulaceae",
+      "cins":"Cyclamen",
+      "anavatan":"Avrupa, Akdeniz havzası",
+      "bilgi":"Cyclamen cinsine ait çiçeklerdir. 23 tane türü bulunur. İlkbahardan Sonbahara kadar çiçek açan türleri bulunmaktadır."
+   },
+   "43":{
+      "isim":"Vapur Dumanı",
+      "familya":"Compositae",
+      "cins":"Ageratum",
+      "anavatan":"Amerika Kıtası",
+      "bilgi":"Ageratum cinsine ait Ageratum houstonianum çiçekleridir."
+   },
+   "44":{
+      "isim":"Lale",
+      "familya":"Liliaceae",
+      "cins":"Tulipa",
+      "anavatan":"Asya",
+      "bilgi":"Tulipa cinsine ait çiçeklerdir. Yaklaşık 75 tane türü vardır. İlkbahar aylarında çiçek açarlar."
+   },
+   "45":{
+      "isim":"Massengena",
+      "familya":"Asparagaceae",
+      "cins":"Dracaena",
+      "anavatan":"Asya ve Afrika",
+      "bilgi":"Dracaena cinsine ait Dracaena Fragrans bitkileridir."
+   },
+   "46":{
+      "isim":"Çöl Gülü",
+      "familya":"Apocynaceae",
+      "cins":"Adenium",
+      "anavatan":"Afrika, Arap Yarımadası",
+      "bilgi":"Adenium cinsine ait çiçeklerdir."
+   },
+   "47":{
+      "isim":"Kana Çiçeği",
+      "familya":"Cannaceae",
+      "cins":"Canna",
+      "anavatan":"Kozmopolit",
+      "bilgi":"Canna cinsine ait çiçeklerdir."
+   },
+   "48":{
+      "isim":"Çiğdem Çiçeği",
+      "familya":"Colchicaceae",
+      "cins":"Colchium",
+      "anavatan":"Batı Asya, Avrupa, Afrika",
+      "bilgi":"Colchium cinsine ait zehirli çiçeklerdir."
+   },
+   "49":{
+      "isim":"Çarkıfelek",
+      "familya":"Passifloraceae",
+      "cins":"Passiflora",
+      "anavatan":"Tropik ülkeler",
+      "bilgi":"Passiflora cinsine ait çiçeklerdir. Çarkları andıran çiçeklerinden dolayı çarkıfelek olarak isimlendirilmiştir. Yaklaşık 550 tane türü bulunur."
+   },
+   "50":{
+      "isim":"Gelincik Çiçeği",
+      "familya":"Papaveraceae",
+      "cins":"Papaver",
+      "anavatan":"Asya",
+      "bilgi":"Papaer cinsine ait Papaver Macrostomum çiçeğidir. Haziran ayı civarlarında çiçek açarlar. Ala Haşhaş olarakta bilinirler."
+   },
+   "51":{
+      "isim":"Nilüfer",
+      "familya":"",
+      "cins":"",
+      "anavatan":"",
+      "bilgi":""
+   },
+   "52":{
+      "isim":"Çuha-Çiçeği",
+      "familya":"Nymphaeaceae",
+      "cins":"Nymphaea",
+      "anavatan":"Kozmopolit",
+      "bilgi":"Nymphaea cinsine ait su bitkileridir. Yaklaşık 30-50 arası türü bulunur. Mayıs-Eylül ayları arasında çiçek açarlar."
+   },
+   "53":{
+      "isim":"Kantaron",
+      "familya":"Gentianaceae",
+      "cins":"Gentiana",
+      "anavatan":"Kozmopolit",
+      "bilgi":"Gentiana cinsine ait çiçeklerdir. Yaklaşık 400 tane türü vardır. Haziran-Eylül ayları arasında çiçek açarlar."
+   },
+   "54":{
+      "isim":"Kaya Sarmaşığı",
+      "familya":"Araliaceae",
+      "cins":"Hedera",
+      "anavatan":"Avrupa, Kuzey Afrika, Asya",
+      "bilgi":"Hedera cinsine ait sarmaşıklardır."
+   },
+   "55":{
+      "isim":"İmparator Otu",
+      "familya":"Apiaceae",
+      "cins":"Astrantia",
+      "anavatan":"Avrupa, Kafkasya",
+      "bilgi":"Astrantia cinsine ait çiçeklerdir. Haziran-Temmuz aylarında çiçek açarlar."
+   },
+   "56":{
+      "isim":"Kekik",
+      "familya":"Lamiaceae",
+      "cins":"Thymus",
+      "anavatan":"Akdeniz",
+      "bilgi":"Thymus cinsine ait bitkilerdir."
+   },
+   "57":{
+      "isim":"Bodrum Papatyası",
+      "familya":"Asteraceae",
+      "cins":"Dimorphotheca",
+      "anavatan":"Güney Afrika",
+      "bilgi":"Dimorphotheca cinsine ait Dimortphotheca Ecklonis çiçekleridir. Süs bitkisi olarak yetiştirilirler."
+   },
+   "58":{
+      "isim":"Açelya",
+      "familya":"Ericaceae",
+      "cins":"Rhododendron",
+      "anavatan":"Japonya ve Çin",
+      "bilgi":"Rhododendron cinsine ait çiçeklerdir. Orman gülü olarakta bilinir."
+   },
+   "59":{
+      "isim":"Enginar Çiçeği",
+      "familya":"Asteraceae",
+      "cins":"Cynara",
+      "anavatan":"Akdeniz",
+      "bilgi":"Cynara cinsine ait Cynara Scolymus çiçekleridir. Yiyecek olarakta kullanılır."
+   },
+   "60":{
+      "isim":"Flamingo",
+      "familya":"Araceae",
+      "cins":"Anthurium",
+      "anavatan":"Orta ve Güney Amerika",
+      "bilgi":"Anthurium cinsine ait çiçeklerdir. Bu cinse ait yaklaşık 1000 tane tür bulunur."
+   },
+   "61":{
+      "isim":"Manolya",
+      "familya":"Magnoliaceae",
+      "cins":"Magnolia",
+      "anavatan":"Doğu ve Güneydoğu Asya, Amerika",
+      "bilgi":"Magnolia cinsine ait çiçeklerdir. Yaklaşık 210 türü bulunmaktadır."
+   },
+   "62":{
+      "isim":"Terslale",
+      "familya":"Liliaceae",
+      "cins":"Fritillaria",
+      "anavatan":"Asya",
+      "bilgi":"Fritillaria cinsine ait Fritillaria Imperialis çiçekleridir. Mart-Mayıs ayları arasında çiçek açarlar. Ağlayangelin olarakta bilinirler."
+   },
+   "63":{
+      "isim":"Gavura",
+      "familya":"Onagraceae",
+      "cins":"Oenothera",
+      "anavatan":"Kuzey Amerika",
+      "bilgi":"Oenothera cinsine ait Oenothera Lindheimeri çiçekleridir."
+   },
+   "64":{
+      "isim":"Gül",
+      "familya":"Rosaceae",
+      "cins":"Rosa",
+      "anavatan":"Asya",
+      "bilgi":"Rosa cinsine ait çiçeklerdir. Süs bitkisi olarak kullanılmasının yanı sıra kozmetik sanayisinde ve yiyecek olarak kullanımı yaygındır."
+   },
+   "65":{
+      "isim":"Balon Çiçeği",
+      "familya":"Campanulaceae",
+      "cins":"Platycodon",
+      "anavatan":"Uzakdoğu",
+      "bilgi":"Platycodon cinsine ait Platycodon Grandiflorus çiçekleridir."
+   },
+   "66":{
+      "isim":"Menekşe",
+      "familya":"Violaceae",
+      "cins":"Viola",
+      "anavatan":"Kuzey Yarımküre",
+      "bilgi":"Viola cinsine ait çiçeklerdir. 600 civarında türü vardır. Genellikle Bahar ve Yaz aylarında çiçek açarlar."
+   },
+   "67":{
+      "isim":"Solucan Otu",
+      "familya":"Geraniaceae",
+      "cins":"Pelargonium ",
+      "anavatan":"Türkiye",
+      "bilgi":"Pelargonium cinsine ait Pelargonium Endlicherianum çiçeğidir. Sardunya olarakta bilinir."
+   },
+   "68":{
+      "isim":"Petunya",
+      "familya":"Solanaceae",
+      "cins":"Petunia",
+      "anavatan":"Güney Amerika",
+      "bilgi":"Petunia cinsine ait çiçeklerdir. 20 kadar türü vardır."
+   },
+   "69":{
+      "isim":"Yüksükotu",
+      "familya":"Scrophulariaceae",
+      "cins":"Digitalis",
+      "anavatan":"Batı Avrupa, Batı ve Orta Asya, Kuzeybatı Afrika",
+      "bilgi":"Digitalis cinsine ait çiçeklerdir. Yaklaşık olarak 20 kadar türü vardır. Yaz aylarında çiçek açarlar."
+   },
+   "70":{
+      "isim":"Eşmeya",
+      "familya":"Bromeliaceae",
+      "cins":"Aechmea",
+      "anavatan":"Orta ve Güney Amerika",
+      "bilgi":"Aechmea cinsine ait Aechmea Fasciata bitkileridir."
+   },
+   "71":{
+      "isim":"Kadife Çiçeği",
+      "familya":"Asteraceae",
+      "cins":"Tagetes",
+      "anavatan":"Kuzey ve Güney Amerika",
+      "bilgi":"Tagetes cinsine ait çiçeklerdir."
+   },
+   "72":{
+      "isim":"Amber Çiçeği",
+      "familya":"Malvaceae",
+      "cins":"Hibiscus",
+      "anavatan":"Kozmopolit",
+      "bilgi":"Hibiscus cinsine ait çiçeklerdir."
+   },
+   "73":{
+      "isim":"Feslegen",
+      "familya":"Lamiaceae",
+      "cins":"Ocimum ",
+      "anavatan":"Güney Asya ve Hindistan",
+      "bilgi":"Ocimum cinsine ait Ocimum Basillicum bitkileridir."
+   },
+   "74":{
+      "isim":"Ayçiçeği",
+      "familya":"Asteraceae",
+      "cins":"Helianthus",
+      "anavatan":"Kozmopolit",
+      "bilgi":"Helianthus cinsine ait Helianthus Annuus çiçekleridir. Tarımda yaygın olarak kullanılır."
+   },
+   "75":{
+      "isim":"Ekin Çiçeği",
+      "familya":"Iridaceae",
+      "cins":"Gladiolus",
+      "anavatan":"Asya, Akdeniz, Güney ve Tropikal Afrika",
+      "bilgi":"Gladiolus cinsine ait çiçeklerdir. Bahar aylarında çiçek açarlar."
+   }
+}
