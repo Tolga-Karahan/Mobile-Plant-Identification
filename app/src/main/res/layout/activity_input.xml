@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/flower_background"
+    tools:context=".InputActivity"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/midnight_drive"
+            android:text="Bitki Tanıma"
+            android:textSize="60dp"
+            android:layout_marginBottom="50dp"
+            android:textColor="@color/colorPrimary"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <Button
+            android:text="Görüntü Al"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"
+            android:layout_marginBottom="5dp"
+            android:textColor="#FFFFFF"
+            android:onClick="takeImage"/>
+
+        <Button
+            android:text="Galeriden Seç"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"
+            android:layout_marginBottom="5dp"
+            android:textColor="#FFFFFF"
+            android:onClick="chooseImage"/>
+
+        <Button
+            android:text="Yardım"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"
+            android:layout_marginBottom="5dp"
+            android:textColor="#FFFFFF"
+            android:onClick="getHelp"/>
+
+        <Button
+            android:text="Hakkında"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"
+            android:layout_marginBottom="5dp"
+            android:textColor="#FFFFFF"
+            android:onClick="showAbout"/>
+    </LinearLayout>
+
+</LinearLayout>

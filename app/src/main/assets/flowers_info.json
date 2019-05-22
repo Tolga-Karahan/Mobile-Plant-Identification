@@ -235,7 +235,7 @@
       "familya":"Asteraceae",
       "cins":"Bellis",
       "anavatan":"Avrupa",
-      "bilgi":"Bellis Perennis türüne ait çiçeklerdir. Çayıt papatyası olarakta bilinirler. İlkbahar ve Yaz ayları boyunca çiçek açarlar."
+      "bilgi":"Bellis Perennis türüne ait çiçeklerdir. Çayır papatyası olarakta bilinirler. İlkbahar ve Yaz ayları boyunca çiçek açarlar."
    },
    "34":{
       "isim":"Kaktüs",
@@ -354,21 +354,21 @@
       "familya":"Papaveraceae",
       "cins":"Papaver",
       "anavatan":"Asya",
-      "bilgi":"Papaer cinsine ait Papaver Macrostomum çiçeğidir. Haziran ayı civarlarında çiçek açarlar. Ala Haşhaş olarakta bilinirler."
+      "bilgi":"Papaver cinsine ait Papaver Macrostomum çiçeğidir. Haziran ayı civarlarında çiçek açarlar. Ala Haşhaş olarakta bilinirler."
    },
    "51":{
       "isim":"Nilüfer",
-      "familya":"",
-      "cins":"",
-      "anavatan":"",
-      "bilgi":""
-   },
-   "52":{
-      "isim":"Çuha-Çiçeği",
       "familya":"Nymphaeaceae",
       "cins":"Nymphaea",
       "anavatan":"Kozmopolit",
       "bilgi":"Nymphaea cinsine ait su bitkileridir. Yaklaşık 30-50 arası türü bulunur. Mayıs-Eylül ayları arasında çiçek açarlar."
+   },
+   "52":{
+      "isim":"Çuha-Çiçeği",
+      "familya":"Primulaceae",
+      "cins":"Primula",
+      "anavatan":"Ilıman Ülkeler",
+      "bilgi":"Primula cinsine ait çiçeklerdir. Mart-Mayıs ayları arasında çiçek açarlar."
    },
    "53":{
       "isim":"Kantaron",

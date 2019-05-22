@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">PlantRecognitionProject</string>
+    <string name="app_name">Bitki Tanıma</string>
+    <string name="info_message">"İsim: %s\n\nFamilya: %s\n\nCins: %s\n\nAnavatan: %s\n\n"</string>
 </resources>
