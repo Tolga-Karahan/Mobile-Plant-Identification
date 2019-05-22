@@ -1,2 +1,2 @@
 # Plant-Recognition
-Plant Recognition App
+Mobile Plant Recognition App
