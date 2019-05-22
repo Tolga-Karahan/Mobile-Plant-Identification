@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Bitki Tanıma</string>
     <string name="info_message">"İsim: %s\n\nFamilya: %s\n\nCins: %s\n\nAnavatan: %s\n\n"</string>
+    <string name="about">
+        "Tolga Karahan tarafından Prof. Dr. Vasıf Nabıyev danışmanlığında geliştirilmiştir.\n\nÖzgürce değiştirilebilir ve dağıtılabilir.\n\nGithub repo:https://github.com/Tolga-Karahan/Mobile-Plant-Recognition"</string>
 </resources>

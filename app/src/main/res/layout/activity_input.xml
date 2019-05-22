@@ -50,15 +50,6 @@
             android:onClick="chooseImage"/>
 
         <Button
-            android:text="Yardım"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/button_style"
-            android:layout_marginBottom="5dp"
-            android:textColor="#FFFFFF"
-            android:onClick="getHelp"/>
-
-        <Button
             android:text="Hakkında"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -66,6 +57,15 @@
             android:layout_marginBottom="5dp"
             android:textColor="#FFFFFF"
             android:onClick="showAbout"/>
+
+        <Button
+            android:text="Çıkış"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"
+            android:layout_marginBottom="5dp"
+            android:textColor="#FFFFFF"
+            android:onClick="exit"/>
     </LinearLayout>
 
 </LinearLayout>

@@ -44,8 +44,6 @@ public class InputActivity extends AppCompatActivity {
 
         else if(requestCode == REQUEST_PICK_IMAGE && resultCode == RESULT_OK){
             try {
-                if (data == null)
-                    System.out.println("data is null!");
                 InputStream inputStream = getContentResolver().openInputStream(data.getData());
                 BufferedInputStream rawImage = new BufferedInputStream(inputStream);
                 Bitmap imageBitmap = BitmapFactory.decodeStream(rawImage);
@@ -69,12 +67,13 @@ public class InputActivity extends AppCompatActivity {
         startActivityForResult(Intent.createChooser(intent, "Select Picture"), REQUEST_PICK_IMAGE);
     }
 
-    public void getHelp(View clickedButton){
-
+    public void showAbout(View clickedButon){
+        Intent aboutIntent = new Intent(this, AboutActivity.class);
+        startActivity(aboutIntent);
     }
 
-    public void showAbout(View clickedButon){
-
+    public void exit(View clickedButton){
+        finishAndRemoveTask();
     }
 
     private void startInterpreterActivity(Bitmap inputImage){

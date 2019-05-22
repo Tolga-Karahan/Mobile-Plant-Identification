@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/text_style"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+
+    <Button
+        android:text="Geri Dön"
+        android:id="@+id/returnButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/activity_button_style"
+        android:maxWidth="120dp"
+        android:maxHeight="50dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="left"
+        android:onClick="returnMethod"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:text="@string/about"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+</LinearLayout>

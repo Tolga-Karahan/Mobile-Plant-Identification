@@ -9,16 +9,16 @@
     android:gravity="center_horizontal">
 
     <Button
-        android:text="Geri Dön"
-        android:id="@+id/returnButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/activity_button_style"
-        android:maxWidth="120dp"
-        android:maxHeight="50dp"
-        android:textColor="#FFFFFF"
-        android:layout_gravity="left"
-        android:onClick="returnMethod"/>
+    android:text="Geri Dön"
+    android:id="@+id/returnButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/activity_button_style"
+    android:maxWidth="120dp"
+    android:maxHeight="50dp"
+    android:textColor="#FFFFFF"
+    android:layout_gravity="left"
+    android:onClick="returnMethod"/>
 
     <LinearLayout
         android:layout_width="200dp"
