@@ -21,11 +21,24 @@ public class ModelInterpreter {
     public static final int IMG_SIZE = 224;
     public static final int CHANNELS = 3;
 
-    private static FirebaseModelOptions modelOptions = null;
-    private static FirebaseModelInputOutputOptions inputOutputOptions = null;
-    private static FirebaseModelInterpreter modelInterpreter = null;
+    private FirebaseModelOptions modelOptions = null;
+    private FirebaseModelInputOutputOptions inputOutputOptions = null;
+    private FirebaseModelInterpreter modelInterpreter = null;
+    private static ModelInterpreter interpreterSingleton = null;
 
-    public static void configureModel(){
+    private ModelInterpreter(){}
+
+    public static ModelInterpreter getInstance(){
+
+        if(interpreterSingleton == null){
+            interpreterSingleton = new ModelInterpreter();
+            interpreterSingleton.configureModel();
+        }
+
+        return interpreterSingleton;
+    }
+
+    private void configureModel(){
         try {
             modelOptions = createOptions();
             inputOutputOptions = createInputOutputOptions();
@@ -35,7 +48,7 @@ public class ModelInterpreter {
         }
     }
 
-    private static FirebaseModelOptions createOptions(){
+    private FirebaseModelOptions createOptions(){
 
         FirebaseModelDownloadConditions.Builder conditionsBuilder =
                 new FirebaseModelDownloadConditions.Builder().requireWifi();
@@ -74,7 +87,7 @@ public class ModelInterpreter {
         return options;
     }
 
-    private static FirebaseModelInputOutputOptions createInputOutputOptions(){
+    private FirebaseModelInputOutputOptions createInputOutputOptions(){
         FirebaseModelInputOutputOptions inputOutputOptions = null;
         try{
             inputOutputOptions =  new FirebaseModelInputOutputOptions.Builder()
@@ -88,7 +101,7 @@ public class ModelInterpreter {
         return inputOutputOptions;
     }
 
-    public static FirebaseModelInputs getModelInput(Bitmap inputImage){
+    public FirebaseModelInputs getModelInput(Bitmap inputImage){
 
         FirebaseModelInputs modelInputs = null;
 

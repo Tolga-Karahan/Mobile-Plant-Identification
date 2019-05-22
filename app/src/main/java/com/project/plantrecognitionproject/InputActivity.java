@@ -2,16 +2,21 @@ package com.project.plantrecognitionproject;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import java.io.BufferedInputStream;
 import java.io.ByteArrayOutputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
 
 public class InputActivity extends AppCompatActivity {
 
     public static final int REQUEST_IMAGE_CAPTURE = 1;
+    public static final int REQUEST_PICK_IMAGE = 2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,12 +34,26 @@ public class InputActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
-        // Get input image and start InterpreterActivity in order to get prediction
+        // Get input image and start InterpreterActivity to make prediction
         if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
             Bundle extras = data.getExtras();
             Bitmap imageBitmap = (Bitmap) extras.get("data");
             Bitmap inputImage =  Bitmap.createScaledBitmap(imageBitmap, 500, 500, true);
             startInterpreterActivity(inputImage);
+        }
+
+        else if(requestCode == REQUEST_PICK_IMAGE && resultCode == RESULT_OK){
+            try {
+                if (data == null)
+                    System.out.println("data is null!");
+                InputStream inputStream = getContentResolver().openInputStream(data.getData());
+                BufferedInputStream rawImage = new BufferedInputStream(inputStream);
+                Bitmap imageBitmap = BitmapFactory.decodeStream(rawImage);
+                Bitmap inputImage = Bitmap.createScaledBitmap(imageBitmap, 500, 500, true);
+                startInterpreterActivity(inputImage);
+            }catch(FileNotFoundException e){
+                e.printStackTrace();
+            }
         }
     }
 
@@ -44,7 +63,10 @@ public class InputActivity extends AppCompatActivity {
     }
 
     public void chooseImage(View clickedButton){
-
+        Intent intent = new Intent();
+        intent.setType("image/*");
+        intent.setAction(Intent.ACTION_GET_CONTENT);
+        startActivityForResult(Intent.createChooser(intent, "Select Picture"), REQUEST_PICK_IMAGE);
     }
 
     public void getHelp(View clickedButton){

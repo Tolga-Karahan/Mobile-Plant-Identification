@@ -38,22 +38,9 @@ public class InterpreterActivity extends AppCompatActivity {
 
     private void createModelInterpreter(){
         // Creating and configuring interpreter
-        modelInterpreter = new ModelInterpreter();
-        modelInterpreter.configureModel();
+        modelInterpreter = ModelInterpreter.getInstance();
     }
 
-    private void startInfoActivity(int predictedClass){
-
-        ByteArrayOutputStream bStream = new ByteArrayOutputStream();
-        inputImage.compress(Bitmap.CompressFormat.PNG, 100, bStream);
-        byte[] byteArray = bStream.toByteArray();
-
-        Intent infoIntent = new Intent(this, InfoActivity.class);
-        infoIntent.putExtra("Image", byteArray);
-        infoIntent.putExtra("predictedClass", predictedClass);
-        finish();
-        startActivity(infoIntent);
-    }
     private void makeInference(){
 
         try {
@@ -90,5 +77,18 @@ public class InterpreterActivity extends AppCompatActivity {
         }catch(FirebaseMLException e){
             e.printStackTrace();
         }
+    }
+
+    private void startInfoActivity(int predictedClass){
+
+        ByteArrayOutputStream bStream = new ByteArrayOutputStream();
+        inputImage.compress(Bitmap.CompressFormat.PNG, 100, bStream);
+        byte[] byteArray = bStream.toByteArray();
+
+        Intent infoIntent = new Intent(this, InfoActivity.class);
+        infoIntent.putExtra("Image", byteArray);
+        infoIntent.putExtra("predictedClass", predictedClass);
+        finish();
+        startActivity(infoIntent);
     }
 }
