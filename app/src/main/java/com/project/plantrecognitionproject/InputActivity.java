@@ -3,6 +3,7 @@ package com.project.plantrecognitionproject;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Matrix;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -39,6 +40,7 @@ public class InputActivity extends AppCompatActivity {
             Bundle extras = data.getExtras();
             Bitmap imageBitmap = (Bitmap) extras.get("data");
             Bitmap inputImage =  Bitmap.createScaledBitmap(imageBitmap, 500, 500, true);
+            inputImage = adjustImage(inputImage);
             startInterpreterActivity(inputImage);
         }
 
@@ -65,6 +67,19 @@ public class InputActivity extends AppCompatActivity {
         intent.setType("image/*");
         intent.setAction(Intent.ACTION_GET_CONTENT);
         startActivityForResult(Intent.createChooser(intent, "Select Picture"), REQUEST_PICK_IMAGE);
+    }
+
+    private static Bitmap adjustImage(Bitmap image){
+        float degrees = 90;
+        Matrix matrix = new Matrix();
+        matrix.setRotate(degrees);
+        Bitmap rotatedImage = Bitmap.createBitmap(image, 0, 0,
+                image.getWidth(),
+                image.getHeight(),
+                matrix,
+                true);
+
+        return rotatedImage;
     }
 
     public void showAbout(View clickedButon){

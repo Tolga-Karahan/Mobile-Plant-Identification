@@ -2,7 +2,6 @@ package com.project.plantrecognitionproject;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.Matrix;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -48,17 +47,6 @@ public class InfoActivity extends AppCompatActivity {
         return inputImage;
     }
 
-    private void showInputImage(Bitmap image){
-        float degrees = 90;
-        Matrix matrix = new Matrix();
-        matrix.setRotate(degrees);
-        imageView.setImageBitmap(Bitmap.createBitmap(image, 0, 0,
-                image.getWidth(),
-                image.getHeight(),
-                matrix,
-                true));
-    }
-
     private void showInfo(){
 
         // Get predicted class id
@@ -75,7 +63,7 @@ public class InfoActivity extends AppCompatActivity {
                 genus,
                 origin);
 
-        showInputImage(getInputImage());
+        imageView.setImageBitmap(getInputImage());;
         textArea.setText(flowerInfo);
     }
 
