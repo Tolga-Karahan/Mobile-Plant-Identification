@@ -74,7 +74,7 @@ public class ModelInterpreter {
 
         // Configuring local model
         FirebaseLocalModel localSource = new FirebaseLocalModel.Builder("plant_recognition_model_local")
-                .setAssetFilePath("plant_recognition_model.tflite")
+                .setAssetFilePath("plant_recognition_model_aug.tflite")
                 .build();
 
         FirebaseModelManager.getInstance().registerLocalModel(localSource);
