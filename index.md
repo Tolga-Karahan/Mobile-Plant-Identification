@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+## Plant Identification App for Android
+A CNN model has been developed to identify plants. Model is being hosted on Firebase. The app takes images from either user's camera or file system then using this image prediction is made and information about plant is shown to user.  
+  
+![Image](/app1.gif)![Image](/app2.gif)
 
-You can use the [editor on GitHub](https://github.com/Tolga-Karahan/Mobile-Plant-Identification/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Data
+Dataset: [76 species flowers and plants dataset](https://drive.google.com/drive/folders/1d_mvCDe7KOMO138ecss9AZYL0hGbczmA?usp=sharing)  
+Augmented Dataset: [Augmented version of the dataset](https://drive.google.com/drive/folders/175qpJpji6kNVBKQmkQ0y1HbXy4cCS4pR?usp=sharing)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Tolga-Karahan/Mobile-Plant-Identification/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Information Regarding Species
+JSON: [Info about species](https://github.com/Tolga-Karahan/Mobile-Plant-Identification/blob/master/app/src/main/assets/flowers_info.json)
